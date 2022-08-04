@@ -23,7 +23,7 @@ function notOpenNewPage(evt) {
   evt.target.reset();
 
   localStorage.removeItem(STORAGE_KEY);
-
+  formData = {};
   console.log(formData);
 }
 
